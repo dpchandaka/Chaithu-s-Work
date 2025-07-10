@@ -9,3 +9,13 @@ Maintains the context of the original branches.
 Easier to understand the timeline of feature development.
 Cons:
 Can lead to a more cluttered history with many merge commits.
+
+git rebase
+git rebase moves or "replays" your branch’s commits on top of another branch. It creates a linear history by rewriting commit hashes.
+
+Use case: When you want a clean, linear project history.
+Pros:
+Cleaner commit history.
+Easier to follow the progression of changes.
+Cons:
+Rewriting history can be dangerous if the branch is shared with others.
